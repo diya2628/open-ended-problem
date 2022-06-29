@@ -47,16 +47,7 @@ for(int i=0;i<x;i++)
         cin>>graph[i][j];
     }
 }
-cout << "Maximum number of matching pairs is "<< maxPair(x,y)<<endl;;
-for(int i=0;i<x;i++)
-{
-    for(int j=0;j<y;j++)
-    {
-        cout<<display[i][j]<<" ";
-    }
-    cout<<"\n";
-    
-}
+cout << "Maximum number of matching pairs is "<< maxPair(x,y)<<endl;
 return 0;
 }
 
